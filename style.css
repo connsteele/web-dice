@@ -35,14 +35,14 @@ h3 {
 
 .modes {
     display: flex;
-    outline: 2px solid rgb(255, 255, 255);
+    /* outline: 2px solid rgb(255, 255, 255); */
     height: 60px;
     margin: 0px 15px 0px;
 }
 
 .modes .mode-selection {
-    outline: 2px solid rgb(34, 0, 255);
-    padding: 0px 0px 0px 0px;
+    /* outline: 2px solid rgb(34, 0, 255); */
+    padding: 5px 5px 5px 5px;
     flex: 1;
 }
 
@@ -51,20 +51,29 @@ h3 {
 }
 
 .modes .mode-selection div{
-    text-align: right;
+    display: flex;
+    
+    /* float: left;
+    text-align: right; */
+}
+
+.modes .mode-selection input{
+    flex: 1;
+    margin: 0px 0px 0px 5px;
 }
 
 .modes .mode-selection h3{
     display: inline-block;
-    margin: 5px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
-    outline: 2px solid red;
-    /* text-align: right; */
+    /* outline: 2px solid red; */
+    text-align: right;
+    flex: 12;
 }
 
 
 .modes .dice-selection {
-    outline: 2px solid greenyellow;
+    /* outline: 2px solid greenyellow; */
     flex: 4;
 }
 
