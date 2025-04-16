@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(46, 45, 51);
+}
+
+.landing-title {
+    margin: 15px 0px;
+    /* height: 0px; */
+    width: auto;
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: 'Century Gothic', 'DejaVu Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+.site-header {
+    text-align: center;
+    margin: 0px;
+}
+
+.flex-landing, 
+.flex-landing div {
+    border-radius: 20px;
+}
+
+.modes {
+    display: flex;
+    outline: 2px solid rgb(255, 255, 255);
+    height: 60px;
+    margin: 0px 15px 0px;
+}
+
+.modes .mode-selection {
+    outline: 2px solid rgb(34, 0, 255);
+    padding: 0px 0px 0px 0px;
+    flex: 1;
+}
+
+.modes .dice-selection {
+    flex: 3;
+}
+
+.modes .mode-selection div{
+    text-align: right;
+}
+
+.modes .mode-selection h3{
+    display: inline-block;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+    outline: 2px solid red;
+    /* text-align: right; */
+}
+
+
+.modes .dice-selection {
+    outline: 2px solid greenyellow;
+    flex: 4;
+}
+
+
+.flex-landing {
+    display: flex;
+    background-color: rgb(215, 183, 141);
+}
+
+/* Descendant Combinator */
+.flex-landing div {
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    height: 500px;
+    margin: 30px;
+    flex: 1;
+}
