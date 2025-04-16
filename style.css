@@ -47,18 +47,37 @@ h3 {
 }
 
 .modes .dice-selection {
+    display: flex;
     flex: 3;
+    /* outline: 2px solid rgb(9, 255, 0); */
+}
+
+.modes .dice-selection {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+}
+
+.modes .dice-selection .dice-tab{
+    flex: 1;
+    background-color: rgb(22, 80, 76);
+    outline: 2px solid black;
+    height: 60px;
+    margin: 0px 2px 2px 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.dice-tab h2 {
+    text-align: center;
 }
 
 .modes .mode-selection div{
     display: flex;
-    
-    /* float: left;
-    text-align: right; */
 }
 
 .modes .mode-selection input{
     flex: 1;
+    height: 10px;
+    width: 10px;
     margin: 0px 0px 0px 5px;
 }
 
@@ -68,19 +87,20 @@ h3 {
     padding: 0px;
     /* outline: 2px solid red; */
     text-align: right;
-    flex: 12;
+    flex: 20;
 }
 
 
 .modes .dice-selection {
     /* outline: 2px solid greenyellow; */
-    flex: 4;
+    flex: 5;
 }
 
 
 .flex-landing {
     display: flex;
     background-color: rgb(215, 183, 141);
+    margin-top: 2px;
 }
 
 /* Descendant Combinator */
